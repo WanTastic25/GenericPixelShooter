@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://cx5kquecwy54c"]
+
+[ext_resource type="Script" uid="uid://bvwmthhwqgqud" path="res://Guns/scripts/Bullet.cs" id="1_bbomo"]
+[ext_resource type="Texture2D" uid="uid://de8hgtknjolvo" path="res://globalAssets/bulletSprite.png" id="2_vniag"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v8qja"]
+radius = 1.0
+
+[sub_resource type="Gradient" id="Gradient_v8qja"]
+offsets = PackedFloat32Array(0, 0.52)
+colors = PackedColorArray(0.9228318, 0.9211593, 0.6255447, 1, 1, 1, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_t4vbm"]
+gradient = SubResource("Gradient_v8qja")
+fill = 1
+fill_from = Vector2(0.5046729, 0.48598132)
+fill_to = Vector2(0.64953274, 0.3364486)
+
+[node name="bullet" type="Area2D"]
+collision_layer = 4
+collision_mask = 6
+script = ExtResource("1_bbomo")
+
+[node name="bulletCollider" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_v8qja")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5707964
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_vniag")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+texture = SubResource("GradientTexture2D_t4vbm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

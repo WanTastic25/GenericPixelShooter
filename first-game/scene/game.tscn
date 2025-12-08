@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://5fneicj2w002"]
+
+[ext_resource type="PackedScene" uid="uid://eoiabepm18lq" path="res://Player/Player.tscn" id="1_5kiuu"]
+[ext_resource type="PackedScene" uid="uid://ddw78shsctasf" path="res://Guns/gun.tscn" id="2_dbls1"]
+[ext_resource type="Texture2D" uid="uid://b3mlsqehv0i70" path="res://icon.svg" id="3_33cqm"]
+[ext_resource type="PackedScene" uid="uid://cneav62lwf58y" path="res://Enemies/enemy_spawn_area.tscn" id="3_p1ry8"]
+
+[node name="Game" type="Node2D"]
+
+[node name="player" parent="." groups=["player"] instance=ExtResource("1_5kiuu")]
+z_index = 1
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+zoom = Vector2(3, 3)
+
+[node name="gun" parent="player" instance=ExtResource("2_dbls1")]
+position = Vector2(0, 8)
+
+[node name="enemySpawnArea" parent="player" instance=ExtResource("3_p1ry8")]
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = ExtResource("3_33cqm")

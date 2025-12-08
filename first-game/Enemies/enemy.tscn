@@ -1,0 +1,69 @@
+[gd_scene load_steps=12 format=3 uid="uid://br6652pmmhhsr"]
+
+[ext_resource type="Script" uid="uid://5blxkwonbbyx" path="res://Enemies/scripts/Enemy.cs" id="1_572h1"]
+[ext_resource type="Texture2D" uid="uid://bdejcr0s3qp4l" path="res://globalAssets/GameTestGuy.png" id="2_rt1x0"]
+[ext_resource type="Texture2D" uid="uid://b8jlfljpuswuj" path="res://globalAssets/Eyes.png" id="3_8wvsg"]
+[ext_resource type="Script" uid="uid://dincnmxd8mo8c" path="res://Enemies/scripts/EnemyEyes.cs" id="4_gk8ng"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_iifgy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4gyqm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iifgy"]
+atlas = ExtResource("2_rt1x0")
+region = Rect2(0, 128, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qi2p4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iifgy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_epg4t"]
+atlas = ExtResource("3_8wvsg")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3yqyl"]
+atlas = ExtResource("3_8wvsg")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wujgv"]
+animations = [{
+"frames": [{
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_epg4t")
+}, {
+"duration": 0.2,
+"texture": SubResource("AtlasTexture_3yqyl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="enemy" type="RigidBody2D"]
+collision_layer = 2
+collision_mask = 3
+physics_material_override = SubResource("PhysicsMaterial_iifgy")
+gravity_scale = 0.0
+lock_rotation = true
+linear_damp = 50.0
+script = ExtResource("1_572h1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_4gyqm")
+
+[node name="body" type="AnimatedSprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+sprite_frames = SubResource("SpriteFrames_qi2p4")
+
+[node name="eyes" type="AnimatedSprite2D" parent="body"]
+sprite_frames = SubResource("SpriteFrames_wujgv")
+autoplay = "default"
+frame_progress = 0.072644986
+script = ExtResource("4_gk8ng")

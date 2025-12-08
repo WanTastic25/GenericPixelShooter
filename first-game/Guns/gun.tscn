@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://ddw78shsctasf"]
+
+[ext_resource type="Script" uid="uid://bqlxh4ffh0nq8" path="res://Guns/scripts/Gun.cs" id="1_uwavn"]
+[ext_resource type="Texture2D" uid="uid://ffxv7mi671j1" path="res://globalAssets/AK47.png" id="1_vk1bi"]
+[ext_resource type="PackedScene" uid="uid://cx5kquecwy54c" path="res://Guns/bullet.tscn" id="2_kw0bs"]
+
+[node name="gun" type="Node2D" node_paths=PackedStringArray("muzzle", "gunSprite")]
+script = ExtResource("1_uwavn")
+bulletGameObject = ExtResource("2_kw0bs")
+muzzle = NodePath("gunSprite/muzzle")
+gunSprite = NodePath("gunSprite")
+
+[node name="gunSprite" type="Sprite2D" parent="."]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_vk1bi")
+flip_h = true
+
+[node name="muzzle" type="Node2D" parent="gunSprite"]
+position = Vector2(73.33333, -10)

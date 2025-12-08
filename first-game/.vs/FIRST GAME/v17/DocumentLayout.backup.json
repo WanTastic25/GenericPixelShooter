@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wanas\\Desktop\\first-game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\desktop\\first-game\\script\\enemyspawnarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:script\\enemyspawnarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\desktop\\first-game\\script\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:script\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\desktop\\first-game\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\desktop\\first-game\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\desktop\\first-game\\script\\eyes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:script\\eyes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\desktop\\first-game\\script\\enemyeyes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:script\\enemyeyes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\desktop\\first-game\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemySpawnArea.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Desktop\\first-game\\script\\EnemySpawnArea.cs",
+              "RelativeDocumentMoniker": "script\\EnemySpawnArea.cs",
+              "ToolTip": "C:\\Users\\wanas\\Desktop\\first-game\\script\\EnemySpawnArea.cs",
+              "RelativeToolTip": "script\\EnemySpawnArea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T04:50:55.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Desktop\\first-game\\script\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "script\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\wanas\\Desktop\\first-game\\script\\PlayerMovement.cs",
+              "RelativeToolTip": "script\\PlayerMovement.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:15:19.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Bullet.cs",
+              "RelativeDocumentMoniker": "script\\Bullet.cs",
+              "ToolTip": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Bullet.cs",
+              "RelativeToolTip": "script\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T03:23:18.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Gun.cs",
+              "RelativeDocumentMoniker": "script\\Gun.cs",
+              "ToolTip": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Gun.cs",
+              "RelativeToolTip": "script\\Gun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:54:38.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyEyes.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Desktop\\first-game\\script\\EnemyEyes.cs",
+              "RelativeDocumentMoniker": "script\\EnemyEyes.cs",
+              "ToolTip": "C:\\Users\\wanas\\Desktop\\first-game\\script\\EnemyEyes.cs",
+              "RelativeToolTip": "script\\EnemyEyes.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T02:47:42.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Eyes.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Eyes.cs",
+              "RelativeDocumentMoniker": "script\\Eyes.cs",
+              "ToolTip": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Eyes.cs",
+              "RelativeToolTip": "script\\Eyes.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:01:07.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Enemy.cs",
+              "RelativeDocumentMoniker": "script\\Enemy.cs",
+              "ToolTip": "C:\\Users\\wanas\\Desktop\\first-game\\script\\Enemy.cs",
+              "RelativeToolTip": "script\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T01:59:29.685Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
