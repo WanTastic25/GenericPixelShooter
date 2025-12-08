@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://5fneicj2w002"]
 
-[ext_resource type="PackedScene" uid="uid://eoiabepm18lq" path="res://Player/Player.tscn" id="1_5kiuu"]
+[ext_resource type="PackedScene" uid="uid://eoiabepm18lq" path="res://Player/player.tscn" id="1_5kiuu"]
 [ext_resource type="PackedScene" uid="uid://ddw78shsctasf" path="res://Guns/gun.tscn" id="2_dbls1"]
 [ext_resource type="Texture2D" uid="uid://b3mlsqehv0i70" path="res://icon.svg" id="3_33cqm"]
 [ext_resource type="PackedScene" uid="uid://cneav62lwf58y" path="res://Enemies/enemy_spawn_area.tscn" id="3_p1ry8"]

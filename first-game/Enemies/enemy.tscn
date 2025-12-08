@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://br6652pmmhhsr"]
+[gd_scene load_steps=13 format=3 uid="uid://br6652pmmhhsr"]
 
 [ext_resource type="Script" uid="uid://5blxkwonbbyx" path="res://Enemies/scripts/Enemy.cs" id="1_572h1"]
 [ext_resource type="Texture2D" uid="uid://bdejcr0s3qp4l" path="res://globalAssets/GameTestGuy.png" id="2_rt1x0"]
 [ext_resource type="Texture2D" uid="uid://b8jlfljpuswuj" path="res://globalAssets/Eyes.png" id="3_8wvsg"]
 [ext_resource type="Script" uid="uid://dincnmxd8mo8c" path="res://Enemies/scripts/EnemyEyes.cs" id="4_gk8ng"]
+[ext_resource type="PackedScene" uid="uid://bdllcuxapwk4p" path="res://Health/health_bar.tscn" id="5_rt1x0"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_iifgy"]
 
@@ -67,3 +68,9 @@ sprite_frames = SubResource("SpriteFrames_wujgv")
 autoplay = "default"
 frame_progress = 0.072644986
 script = ExtResource("4_gk8ng")
+
+[node name="healthBar" parent="." instance=ExtResource("5_rt1x0")]
+offset_left = -10.0
+offset_top = -15.0
+offset_right = 10.0
+offset_bottom = -13.0

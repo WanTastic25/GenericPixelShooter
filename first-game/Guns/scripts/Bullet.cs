@@ -27,9 +27,13 @@ public partial class Bullet : Area2D
     {
         if (body.IsInGroup("enemy"))
         {
-            GD.Print("Delete enemy");
-            body.QueueFree();
             QueueFree();
+
+            if (body.HasNode("healthBar"))
+            {
+                var healthCode = body.GetNode<HealthBar>("healthBar");
+                healthCode.Health = -3;
+            }
         }
     }
 }
