@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\enemies\\scripts\\enemyspawnarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:enemies\\scripts\\enemyspawnarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\enemies\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:enemies\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\player\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:player\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\guns\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:guns\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\generalscripts\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:generalscripts\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\enemies\\scripts\\enemyspawnarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:enemies\\scripts\\enemyspawnarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\generalscripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:generalscripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\player\\scripts\\eyes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:player\\scripts\\eyes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +42,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "EnemyStats.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\GeneralScripts\\EnemyStats.cs",
+              "RelativeDocumentMoniker": "GeneralScripts\\EnemyStats.cs",
+              "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\GeneralScripts\\EnemyStats.cs",
+              "RelativeToolTip": "GeneralScripts\\EnemyStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T02:16:05.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\GeneralScripts\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "GeneralScripts\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\GeneralScripts\\PlayerStats.cs",
+              "RelativeToolTip": "GeneralScripts\\PlayerStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:03:15.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Eyes.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Player\\scripts\\Eyes.cs",
+              "RelativeDocumentMoniker": "Player\\scripts\\Eyes.cs",
+              "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Player\\scripts\\Eyes.cs",
+              "RelativeToolTip": "Player\\scripts\\Eyes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:57:27.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EnemySpawnArea.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\EnemySpawnArea.cs",
               "RelativeDocumentMoniker": "Enemies\\scripts\\EnemySpawnArea.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\EnemySpawnArea.cs",
               "RelativeToolTip": "Enemies\\scripts\\EnemySpawnArea.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T05:34:50.291Z",
               "EditorCaption": ""
@@ -49,9 +103,22 @@
               "RelativeDocumentMoniker": "Guns\\scripts\\Bullet.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\Bullet.cs",
               "RelativeToolTip": "Guns\\scripts\\Bullet.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwCEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T04:50:54.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Player\\scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Player\\scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Player\\scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Player\\scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA+wEgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T22:56:00.52Z",
               "EditorCaption": ""
             },
             {
@@ -62,20 +129,20 @@
               "RelativeDocumentMoniker": "Enemies\\scripts\\Enemy.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\Enemy.cs",
               "RelativeToolTip": "Enemies\\scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewCsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T03:49:58.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HealthBar.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Health\\HealthBar.cs",
               "RelativeDocumentMoniker": "Health\\HealthBar.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Health\\HealthBar.cs",
               "RelativeToolTip": "Health\\HealthBar.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T02:53:27.475Z",
               "EditorCaption": ""
