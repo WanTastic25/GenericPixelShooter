@@ -10,7 +10,7 @@ public partial class PlayerMovement : CharacterBody2D
     [Export] public Boolean invulnerable = false;
     [Export] public Boolean isDodging = false;
     [Export] public float dodgeSpeed = 300.0f;
-	[Export] public PlayerStats stats;
+	//[Export] public PlayerStats stats;
 	[Export] public int playerHealth = 100;
 	private Timer dodgeAgainTimer;
 	private Timer invulnerabilityTimer;
