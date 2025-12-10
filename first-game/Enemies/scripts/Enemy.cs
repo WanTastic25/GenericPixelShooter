@@ -40,8 +40,8 @@ public partial class Enemy : RigidBody2D
                 var healthCode = body.GetNode<HealthBar>("healthBar");
                 healthCode.Health = -10;
 
-                playerMovementScript.invulnearble();
-                _ = playerMovementScript.knockback(enemyDirection);
+                playerMovementScript.applyInvulnerability();
+                playerMovementScript.applyKnockback(enemyDirection, 300f, 0.1);
             }
         }
     }
