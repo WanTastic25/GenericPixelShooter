@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\player\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:player\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\generalscripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:generalscripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Player\\scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Player\\scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Player\\scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Player\\scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:54:27.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EnemyStats.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\GeneralScripts\\EnemyStats.cs",
               "RelativeDocumentMoniker": "GeneralScripts\\EnemyStats.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\GeneralScripts\\PlayerStats.cs",
               "RelativeDocumentMoniker": "GeneralScripts\\PlayerStats.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Eyes.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Player\\scripts\\Eyes.cs",
               "RelativeDocumentMoniker": "Player\\scripts\\Eyes.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EnemySpawnArea.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\EnemySpawnArea.cs",
               "RelativeDocumentMoniker": "Enemies\\scripts\\EnemySpawnArea.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Guns\\scripts\\Bullet.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemies\\scripts\\Enemy.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HealthBar.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Health\\HealthBar.cs",
               "RelativeDocumentMoniker": "Health\\HealthBar.cs",
