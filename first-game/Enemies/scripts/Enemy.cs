@@ -3,8 +3,8 @@ using System;
 
 public partial class Enemy : RigidBody2D
 {
-    [Export] public float Speed = 50.0f;
-    [Export] public int enemyhealth = 10;
+    [Export] public EnemyData enemyData;
+
     [Export] public HealthBar healthBarCode;
     private PlayerMovement playerMovementScript;
     private bool playerDetected;
@@ -14,7 +14,7 @@ public partial class Enemy : RigidBody2D
     {
         playerMovementScript = GetTree().GetFirstNodeInGroup("player") as PlayerMovement;
         healthBarCode = GetNode<HealthBar>("healthBar");
-        healthBarCode.InitHealth(enemyhealth);
+        healthBarCode.InitHealth(enemyData.EnemyHealth);
 
         this.BodyEntered += OnBodyEntered;
         this.BodyExited += OnBodyExited;
@@ -26,7 +26,7 @@ public partial class Enemy : RigidBody2D
         Vector2 playerPosition = player.Position;
 
         enemyDirection = (playerPosition - GlobalPosition).Normalized();
-        Position += enemyDirection * Speed * (float)delta;
+        Position += enemyDirection * enemyData.EnemySpeed * (float)delta;
     }
 
     private void OnBodyEntered(Node body)

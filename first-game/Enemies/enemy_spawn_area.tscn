@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cneav62lwf58y"]
 
-[ext_resource type="Script" uid="uid://cwnmpjeogodic" path="res://Enemies/scripts/EnemySpawnArea.cs" id="1_u4v6b"]
+[ext_resource type="Script" uid="uid://cwnmpjeogodic" path="res://Enemies/scripts/EnemySpawnHandler.cs" id="1_u4v6b"]
 [ext_resource type="PackedScene" uid="uid://br6652pmmhhsr" path="res://Enemies/enemy.tscn" id="2_vcmu7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u4v6b"]

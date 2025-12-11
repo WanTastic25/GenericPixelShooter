@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3 uid="uid://db0c1cgn7b3ub"]
+
+[ext_resource type="Script" uid="uid://dpk2i3u3pwdn" path="res://Enemies/scripts/EnemyData.cs" id="1_52671"]
+
+[resource]
+script = ExtResource("1_52671")
+EnemyHealth = 20
+EnemySpeed = 20.0
+metadata/_custom_type_script = "uid://dpk2i3u3pwdn"
