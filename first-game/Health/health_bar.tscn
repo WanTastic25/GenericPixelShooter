@@ -19,15 +19,18 @@ shadow_offset = Vector2(0, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kdjhy"]
 bg_color = Color(0.90619624, 0.76560116, 0.17213622, 1)
 
-[node name="healthBar" type="ProgressBar"]
+[node name="healthBar" type="ProgressBar" node_paths=PackedStringArray("damageBar", "timer")]
 z_index = 1
-offset_right = 240.0
+offset_left = 1.0
+offset_right = 241.0
 offset_bottom = 10.0
 theme_override_styles/background = SubResource("StyleBoxEmpty_7igj3")
 theme_override_styles/fill = SubResource("StyleBoxFlat_m7ell")
 value = 60.0
 show_percentage = false
 script = ExtResource("1_0hssn")
+damageBar = NodePath("damageBar")
+timer = NodePath("Timer")
 
 [node name="damageBar" type="ProgressBar" parent="."]
 z_index = -1

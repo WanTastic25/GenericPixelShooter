@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class EnemySpawnArea : Node2D
+public partial class EnemySpawnHandler : Node2D
 {
 	[Export] public PackedScene enemyGameObject;
     [Export] public CollisionShape2D spawnArea;
