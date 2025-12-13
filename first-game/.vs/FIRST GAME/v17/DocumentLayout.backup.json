@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:enemies\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\enemies\\scripts\\enemyspawnhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:enemies\\scripts\\enemyspawnhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\guns\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:guns\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemySpawnHandler.cs",
+              "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\EnemySpawnHandler.cs",
+              "RelativeDocumentMoniker": "Enemies\\scripts\\EnemySpawnHandler.cs",
+              "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\EnemySpawnHandler.cs",
+              "RelativeToolTip": "Enemies\\scripts\\EnemySpawnHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T04:28:46.571Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,7 +53,7 @@
               "RelativeDocumentMoniker": "Enemies\\scripts\\Enemy.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\Enemy.cs",
               "RelativeToolTip": "Enemies\\scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T03:50:03.431Z",
               "EditorCaption": ""
@@ -49,14 +66,14 @@
               "RelativeDocumentMoniker": "Enemies\\scripts\\EnemyData.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Enemies\\scripts\\EnemyData.cs",
               "RelativeToolTip": "Enemies\\scripts\\EnemyData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T03:43:15.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Gun.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\Gun.cs",
               "RelativeDocumentMoniker": "Guns\\scripts\\Gun.cs",
@@ -69,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Guns\\scripts\\Bullet.cs",

@@ -9,7 +9,6 @@ public partial class PlayerMovement : CharacterBody2D
     [Export] public Boolean canDash = true;
     [Export] public Boolean invulnerable = false;
     [Export] public Boolean isDashing = false;
-	//[Export] public PlayerStats stats;
 	[Export] public int playerHealth = 100;
 	private Timer dashAgainTimer;
 	private Timer invulnerabilityTimer;

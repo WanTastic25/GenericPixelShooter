@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://y5qikn0ohq5q"]
+
+[ext_resource type="Script" uid="uid://cv7lqo0fj7wcr" path="res://Guns/scripts/AmmoManagement.cs" id="1_8sotw"]
+
+[node name="AmmoManagement" type="Node2D" node_paths=PackedStringArray("reloadTimer")]
+script = ExtResource("1_8sotw")
+reloadTimer = NodePath("Timer")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 24.0
+offset_bottom = 23.0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

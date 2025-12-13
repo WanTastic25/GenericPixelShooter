@@ -12,12 +12,11 @@ public partial class Gun : Node2D
 
     [Export] public Boolean canShoot = true;
 
-    public void Shoot()
+    [Export] public AmmoManagement ammoManagement;
+
+    public override void _Ready()
     {
-        var bullet = bulletGameObject.Instantiate<Node2D>();
-        bullet.GlobalPosition = muzzle.GlobalPosition;
-        GetTree().CurrentScene.AddChild(bullet);
-        bullet.GlobalRotation = gunSprite.GlobalRotation;
+        ammoManagement.ammoInit(3, 30);
     }
 
     public override void _Process(double delta)
@@ -52,5 +51,26 @@ public partial class Gun : Node2D
         await ToSignal(GetTree().CreateTimer(0.1f), "timeout");
 
         canShoot = true;
+    }
+
+    public void Shoot()
+    {
+        ammoManagement.checkBullet();
+        // Later figure out how to make the reload cycle work without needing to lift my finger off the left mouse button
+
+        if (ammoManagement.ammoAvailable)
+        {
+            var bullet = bulletGameObject.Instantiate<Node2D>();
+            bullet.GlobalPosition = muzzle.GlobalPosition;
+            GetTree().CurrentScene.AddChild(bullet);
+            bullet.GlobalRotation = gunSprite.GlobalRotation;
+
+            return;
+        }
+        else
+        {
+            GD.Print("No Ammo");
+            return;
+        }
     }
 }
