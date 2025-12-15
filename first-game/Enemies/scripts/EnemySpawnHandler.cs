@@ -16,13 +16,13 @@ public partial class EnemySpawnHandler : Node2D
         Timer spawnEnemyTimer = GetNode<Timer>("enemySpawnTimer");
         RectangleShape2D spawnAreaShape = spawnArea.Shape as RectangleShape2D;
 
-        // Generate random x and y values
         float randX = (float)GD.RandRange(-450, 450);
         float randY = (float)GD.RandRange(-250, 250);
 
         Vector2 spawningPoint = new Vector2(randX, randY);
-        
-        // spawn enemy
+
+        enemyCanSpawn = false;
+
         if (enemyCanSpawn)
         {
             var enemy = enemyGameObject.Instantiate<RigidBody2D>();

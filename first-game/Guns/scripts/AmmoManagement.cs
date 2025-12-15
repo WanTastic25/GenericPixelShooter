@@ -31,6 +31,12 @@ public partial class AmmoManagement : Node
 		currentBullet = getBullet;
 	}
 
+	public void addMagazineAndBullet()
+	{
+		currentBullet = maxBullet;
+		currentMagazine += 3;
+	}
+
 	public void checkBullet()
 	{
 		if (currentBullet <= 0)
@@ -48,8 +54,8 @@ public partial class AmmoManagement : Node
             ammoAvailable = false;
 		else 
 		{
-			reloadTimer.Start();
             ammoAvailable = false;
+            reloadTimer.Start();
         }
 	}
 

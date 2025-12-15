@@ -34,9 +34,12 @@ public partial class Gun : Node2D
             gunSprite.Scale = new Vector2(0.3f, 0.3f);
         }
 
-        if (Input.IsActionPressed("mouseLeft"))
+        if (ammoManagement.ammoAvailable)
         {
-            Shooting();
+            if (Input.IsActionPressed("mouseLeft"))
+            {
+                Shooting();
+            }
         }
     }
 
@@ -56,21 +59,12 @@ public partial class Gun : Node2D
     public void Shoot()
     {
         ammoManagement.checkBullet();
-        // Later figure out how to make the reload cycle work without needing to lift my finger off the left mouse button
 
-        if (ammoManagement.ammoAvailable)
-        {
-            var bullet = bulletGameObject.Instantiate<Node2D>();
-            bullet.GlobalPosition = muzzle.GlobalPosition;
-            GetTree().CurrentScene.AddChild(bullet);
-            bullet.GlobalRotation = gunSprite.GlobalRotation;
+        var bullet = bulletGameObject.Instantiate<Node2D>();
+        bullet.GlobalPosition = muzzle.GlobalPosition;
+        GetTree().CurrentScene.AddChild(bullet);
+        bullet.GlobalRotation = gunSprite.GlobalRotation;
 
-            return;
-        }
-        else
-        {
-            GD.Print("No Ammo");
-            return;
-        }
+        return;
     }
 }
