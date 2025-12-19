@@ -21,7 +21,7 @@ public partial class EnemySpawnHandler : Node2D
 
         Vector2 spawningPoint = new Vector2(randX, randY);
 
-        enemyCanSpawn = false;
+        //enemyCanSpawn = false;
 
         if (enemyCanSpawn)
         {

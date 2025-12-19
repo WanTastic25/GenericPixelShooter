@@ -35,7 +35,8 @@ public partial class AmmoManagement : Node
 	{
 		currentBullet = maxBullet;
 		currentMagazine += 3;
-	}
+        ammoAvailable = true;
+    }
 
 	public void checkBullet()
 	{
@@ -51,7 +52,9 @@ public partial class AmmoManagement : Node
 	public void checkMagazine()
 	{
 		if (currentMagazine <= 0)
+		{
             ammoAvailable = false;
+        }
 		else 
 		{
             ammoAvailable = false;
