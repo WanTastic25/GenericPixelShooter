@@ -6,13 +6,15 @@ public partial class Enemy : RigidBody2D
     [Export] public EnemyData enemyData;
 
     [Export] public HealthBar healthBarCode;
-    private PlayerMovement playerMovementScript;
     private bool playerDetected;
     private Vector2 enemyDirection;
+    private PlayerMovement _player;
 
     public override void _Ready()
     {
-        playerMovementScript = PlayerMovement.Instance;
+        _player = PlayerMovement.Instance;
+        _player.TreeExited += OnPlayerExitTree;
+
         healthBarCode = GetNode<HealthBar>("healthBar");
         healthBarCode.InitHealth(enemyData.EnemyHealth);
 
@@ -22,11 +24,16 @@ public partial class Enemy : RigidBody2D
 
     public override void _PhysicsProcess(double delta)
 	{
-        Node2D player = PlayerMovement.Instance;
-        Vector2 playerPosition = player.Position;
+        Vector2 playerPosition = _player.Position;
 
         enemyDirection = (playerPosition - GlobalPosition).Normalized();
         Position += enemyDirection * enemyData.EnemySpeed * (float)delta;
+    }
+
+    public override void _ExitTree()
+    {
+        // Unsubscribe to prevents memory leaks with events
+        _player.TreeExited -= OnPlayerExitTree;
     }
 
     private void OnBodyEntered(Node body)
@@ -35,13 +42,13 @@ public partial class Enemy : RigidBody2D
         {
             playerDetected = true;
 
-            if (playerMovementScript.invulnerable == false && playerDetected)
+            if (_player.invulnerable == false && playerDetected)
             {
                 var healthCode = body.GetNode<HealthBar>("healthBar");
                 healthCode.Health = -10;
 
-                playerMovementScript.applyInvulnerability();
-                playerMovementScript.applyKnockback(enemyDirection, 300f, 0.1);
+                _player.applyInvulnerability();
+                _player.applyKnockback(enemyDirection, 300f, 0.1);
             }
         }
     }
@@ -52,5 +59,10 @@ public partial class Enemy : RigidBody2D
         {
             playerDetected = false;
         }
+    }
+
+    private void OnPlayerExitTree()
+    {
+        SetPhysicsProcess(false);
     }
 }
