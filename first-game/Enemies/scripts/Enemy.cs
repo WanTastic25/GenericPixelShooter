@@ -12,7 +12,7 @@ public partial class Enemy : RigidBody2D
 
     public override void _Ready()
     {
-        playerMovementScript = GetTree().GetFirstNodeInGroup("player") as PlayerMovement;
+        playerMovementScript = PlayerMovement.Instance;
         healthBarCode = GetNode<HealthBar>("healthBar");
         healthBarCode.InitHealth(enemyData.EnemyHealth);
 
@@ -22,7 +22,7 @@ public partial class Enemy : RigidBody2D
 
     public override void _PhysicsProcess(double delta)
 	{
-        Node2D player = GetTree().GetNodesInGroup("player")[0] as Node2D;
+        Node2D player = PlayerMovement.Instance;
         Vector2 playerPosition = player.Position;
 
         enemyDirection = (playerPosition - GlobalPosition).Normalized();

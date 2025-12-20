@@ -13,7 +13,7 @@ public partial class EnemyEyes : AnimatedSprite2D
 
     public override void _Process(double delta)
     {
-        Node2D player = GetTree().GetNodesInGroup("player")[0] as Node2D;
+        Node2D player = PlayerMovement.Instance;
 
         Vector2 playerPos = player.Position;
         Vector2 toPlayer = playerPos - GlobalPosition;
