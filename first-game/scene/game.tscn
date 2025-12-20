@@ -1,11 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://5fneicj2w002"]
+[gd_scene load_steps=8 format=3 uid="uid://5fneicj2w002"]
 
-[ext_resource type="PackedScene" path="res://Player/Player.tscn" id="1_5kiuu"]
+[ext_resource type="PackedScene" uid="uid://eoiabepm18lq" path="res://Player/Player.tscn" id="1_5kiuu"]
 [ext_resource type="PackedScene" uid="uid://ddw78shsctasf" path="res://Guns/gun.tscn" id="2_dbls1"]
 [ext_resource type="Texture2D" uid="uid://b3mlsqehv0i70" path="res://icon.svg" id="3_33cqm"]
 [ext_resource type="PackedScene" uid="uid://cneav62lwf58y" path="res://Enemies/enemy_spawn_area.tscn" id="3_p1ry8"]
 [ext_resource type="PackedScene" uid="uid://y5qikn0ohq5q" path="res://Guns/ammo_management.tscn" id="5_p1ry8"]
 [ext_resource type="PackedScene" uid="uid://ckicm8nqqt58p" path="res://Guns/ammo_item.tscn" id="5_xlg7c"]
+[ext_resource type="PackedScene" uid="uid://dhgecpxubsags" path="res://Health/medkit_item.tscn" id="7_qpk70"]
 
 [node name="Game" type="Node2D"]
 
@@ -28,3 +29,6 @@ texture = ExtResource("3_33cqm")
 
 [node name="ammoItem" parent="." instance=ExtResource("5_xlg7c")]
 position = Vector2(105, 52)
+
+[node name="medkit_item" parent="." instance=ExtResource("7_qpk70")]
+position = Vector2(81, 52)
