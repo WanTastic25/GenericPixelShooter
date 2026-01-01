@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://5fneicj2w002"]
+[gd_scene load_steps=9 format=3 uid="uid://5fneicj2w002"]
 
 [ext_resource type="PackedScene" uid="uid://eoiabepm18lq" path="res://Player/Player.tscn" id="1_5kiuu"]
 [ext_resource type="PackedScene" uid="uid://ddw78shsctasf" path="res://Guns/gun.tscn" id="2_dbls1"]
@@ -7,11 +7,13 @@
 [ext_resource type="PackedScene" uid="uid://y5qikn0ohq5q" path="res://Guns/ammo_management.tscn" id="5_p1ry8"]
 [ext_resource type="PackedScene" uid="uid://ckicm8nqqt58p" path="res://Guns/ammo_item.tscn" id="5_xlg7c"]
 [ext_resource type="PackedScene" uid="uid://dhgecpxubsags" path="res://Health/medkit_item.tscn" id="7_qpk70"]
+[ext_resource type="PackedScene" uid="uid://35m7eu8utiwh" path="res://Guns/AmmoUI.tscn" id="8_ll5lq"]
 
 [node name="Game" type="Node2D"]
 
 [node name="player" parent="." groups=["player"] instance=ExtResource("1_5kiuu")]
 z_index = 1
+position = Vector2(576, 331)
 
 [node name="Camera2D" type="Camera2D" parent="player"]
 zoom = Vector2(3, 3)
@@ -25,10 +27,15 @@ ammoManagement = NodePath("../AmmoManagement")
 [node name="AmmoManagement" parent="player" instance=ExtResource("5_p1ry8")]
 
 [node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(576, 331)
 texture = ExtResource("3_33cqm")
 
 [node name="ammoItem" parent="." instance=ExtResource("5_xlg7c")]
-position = Vector2(105, 52)
+position = Vector2(634, 440)
 
 [node name="medkit_item" parent="." instance=ExtResource("7_qpk70")]
-position = Vector2(81, 52)
+position = Vector2(610, 440)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="AmmoUI" parent="CanvasLayer" instance=ExtResource("8_ll5lq")]

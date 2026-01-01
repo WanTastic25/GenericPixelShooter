@@ -18,7 +18,8 @@ public partial class AmmoItem : Area2D
 	{
 		if (body.IsInGroup("player"))
 		{
-			ammoManagement.addMagazineAndBullet();
+			ammoManagement.Magazine += 3;
+			ammoManagement.Bullet += 30;
 			QueueFree();
         }
 	}

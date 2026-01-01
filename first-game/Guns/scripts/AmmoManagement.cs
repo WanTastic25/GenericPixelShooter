@@ -10,16 +10,20 @@ public partial class AmmoManagement : Node
 	public int maxBullet;
 	public bool reloading;
 	public bool ammoAvailable = true;
-
-    // See if there is more or equal to 1 bullet
-    // if there is bullet, shoot
-    // if there is no bullet, check magazine count
-    // if there is magazine, remove one magazine, add 30 bullet
-    // if there is no magazine, do not shoot
+	Label bulletCount;
+	Label magazineCount;
 
     public override void _Ready()
     {
 		reloadTimer = GetNode<Timer>("Timer");
+		Node root = GetTree().CurrentScene;
+		Node canvas = root.GetNode<CanvasLayer>("CanvasLayer");
+		Control ammoUI = canvas.GetNode<Control>("AmmoUI");
+		magazineCount = ammoUI.GetNode<Label>("MarginContainer2/VBoxContainer/HBoxContainer/magazineCount");
+		bulletCount = ammoUI.GetNode<Label>("MarginContainer2/VBoxContainer/HBoxContainer/bulletCount");
+
+        reloadTimer = GetNode<Timer>("Timer");
+    }
     }
 
     public void ammoInit(int getMagazine, int getBullet)
@@ -59,6 +63,7 @@ public partial class AmmoManagement : Node
 		{
             ammoAvailable = false;
             reloadTimer.Start();
+            updateAmmoUI();
         }
 	}
 
@@ -70,4 +75,10 @@ public partial class AmmoManagement : Node
         currentBullet = maxBullet;
         ammoAvailable = true;
     }
+
+	public void updateAmmoUI()
+	{
+		magazineCount.Text = "x" + currentMagazine;
+		bulletCount.Text = "" + currentBullet;
+	}
 }
