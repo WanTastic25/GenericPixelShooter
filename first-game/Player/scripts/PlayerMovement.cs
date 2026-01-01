@@ -5,6 +5,7 @@ using static Godot.TextServer;
 
 public partial class PlayerMovement : CharacterBody2D
 {
+    public static PlayerMovement Instance { get; private set; }
     [Export] public float Speed = 100.0f;
     [Export] public Boolean canDash = true;
     [Export] public Boolean invulnerable = false;
@@ -18,6 +19,7 @@ public partial class PlayerMovement : CharacterBody2D
 
     public override void _Ready()
 	{
+        Instance = this;
         dashAgainTimer = GetNode<Timer>("dashAgainTimer");
         invulnerabilityTimer = GetNode<Timer>("invulnerabilityTimer");
 		healthBarCode = GetNode<HealthBar>("healthBar");

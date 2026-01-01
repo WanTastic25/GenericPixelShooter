@@ -8,7 +8,7 @@ public partial class MedkitItem : Area2D
 
     public override void _Ready()
     {
-        player = GetTree().GetFirstNodeInGroup("player") as CharacterBody2D;
+        player = PlayerMovement.Instance;
         playerHealthBar = player.GetNode<HealthBar>("healthBar");
 
         BodyEntered += OnBodyEntered;
