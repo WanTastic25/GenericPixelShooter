@@ -30,6 +30,7 @@ public partial class HealthBar : ProgressBar
         if (health > maxHealth)
         {
             health = maxHealth;
+            damageBar.Value = health;
         }
 
         if (health <= 0)

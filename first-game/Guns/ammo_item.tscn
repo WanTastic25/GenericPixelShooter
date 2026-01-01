@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://ckicm8nqqt58p"]
 
 [ext_resource type="Texture2D" uid="uid://ubp2o0cktvlu" path="res://globalAssets/ammo.png" id="1_3vk3s"]
-[ext_resource type="Script" uid="uid://b5q5jpaywwbuu" path="res://Guns/AmmoItem.cs" id="1_5j6uv"]
+[ext_resource type="Script" uid="uid://b5q5jpaywwbuu" path="res://Guns/scripts/AmmoItem.cs" id="1_5j6uv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5j6uv"]
 
