@@ -24,7 +24,6 @@ public partial class AmmoManagement : Node
 
         reloadTimer = GetNode<Timer>("Timer");
     }
-    }
 
     public void ammoInit(int getMagazine, int getBullet)
 	{

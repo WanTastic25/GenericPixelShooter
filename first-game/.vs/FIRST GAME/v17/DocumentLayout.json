@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\guns\\scripts\\ammoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:guns\\scripts\\ammoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\guns\\scripts\\ammomanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:guns\\scripts\\ammomanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\guns\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:guns\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\guns\\scripts\\ammoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|solutionrelative:guns\\scripts\\ammoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AED315-9A01-4F13-B586-26FCA628D31E}|First Game.csproj|c:\\users\\wanas\\documents\\github\\genericpixelshooter\\first-game\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -50,38 +50,37 @@
               "RelativeToolTip": "Health\\HealthBar.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T08:54:28.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-01T08:54:28.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AmmoItem.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\AmmoItem.cs",
               "RelativeDocumentMoniker": "Guns\\scripts\\AmmoItem.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\AmmoItem.cs",
               "RelativeToolTip": "Guns\\scripts\\AmmoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-01T08:12:59.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AmmoManagement.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\AmmoManagement.cs",
               "RelativeDocumentMoniker": "Guns\\scripts\\AmmoManagement.cs",
               "ToolTip": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\AmmoManagement.cs",
               "RelativeToolTip": "Guns\\scripts\\AmmoManagement.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T02:56:28.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Gun.cs",
               "DocumentMoniker": "C:\\Users\\wanas\\Documents\\Github\\GenericPixelShooter\\first-game\\Guns\\scripts\\Gun.cs",
               "RelativeDocumentMoniker": "Guns\\scripts\\Gun.cs",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "Guns\\scripts\\Gun.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwDwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T03:28:56.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T03:28:56.339Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Enemies\\scripts\\EnemySpawnHandler.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T04:28:46.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T04:28:46.571Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Enemies\\scripts\\Enemy.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAlwCgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T03:50:03.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T03:50:03.431Z"
             },
             {
               "$type": "Document",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "Enemies\\scripts\\EnemyData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T03:43:15.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T03:43:15.446Z"
             }
           ]
         }
