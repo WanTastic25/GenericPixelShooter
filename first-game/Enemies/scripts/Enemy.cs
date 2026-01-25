@@ -3,15 +3,18 @@ using System;
 
 public partial class Enemy : RigidBody2D
 {
-    [Export] public EnemyData enemyData;
+    [Export] public EnemyData[] enemyDatas;
 
-    [Export] public HealthBar healthBarCode;
+    public HealthBar healthBarCode;
     private bool playerDetected;
     private Vector2 enemyDirection;
     private PlayerMovement _player;
+    private EnemyData enemyData;
 
     public override void _Ready()
     {
+        enemyData = enemyDatas[GD.Randi() % enemyDatas.Length];
+
         _player = PlayerMovement.Instance;
         _player.TreeExited += OnPlayerExitTree;
 
@@ -32,7 +35,6 @@ public partial class Enemy : RigidBody2D
 
     public override void _ExitTree()
     {
-        // Unsubscribe to prevents memory leaks with events
         _player.TreeExited -= OnPlayerExitTree;
     }
 

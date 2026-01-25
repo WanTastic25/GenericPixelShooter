@@ -39,6 +39,8 @@ public partial class AmmoManagement : Node
 		currentBullet = maxBullet;
 		currentMagazine += 3;
         ammoAvailable = true;
+
+        updateAmmoUI();
     }
 
 	public void checkBullet()
@@ -50,6 +52,8 @@ public partial class AmmoManagement : Node
             currentBullet--;
             GD.Print("Bullet Count" + currentBullet + "/" + currentMagazine);
         }
+
+        updateAmmoUI();
     }
 
 	public void checkMagazine()
@@ -62,9 +66,10 @@ public partial class AmmoManagement : Node
 		{
             ammoAvailable = false;
             reloadTimer.Start();
-            updateAmmoUI();
         }
-	}
+
+        updateAmmoUI();
+    }
 
     public void _on_timer_timeout()
 	{
@@ -73,6 +78,8 @@ public partial class AmmoManagement : Node
         currentMagazine--;
         currentBullet = maxBullet;
         ammoAvailable = true;
+
+        updateAmmoUI();
     }
 
 	public void updateAmmoUI()
