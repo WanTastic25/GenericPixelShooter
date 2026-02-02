@@ -3,17 +3,20 @@ using System;
 
 public partial class Enemy : RigidBody2D
 {
-    [Export] public EnemyData[] enemyDatas;
+    [Export] public EnemyData[] enemyDatas; 
+    private EnemyData enemyData;
 
     public HealthBar healthBarCode;
     private bool playerDetected;
     private Vector2 enemyDirection;
     private PlayerMovement _player;
-    private EnemyData enemyData;
+    private AnimatedSprite2D _sprite;
 
     public override void _Ready()
     {
         enemyData = enemyDatas[GD.Randi() % enemyDatas.Length];
+        _sprite = GetNode("body") as AnimatedSprite2D;
+        _sprite.SpriteFrames = enemyData.SpriteFrames;
 
         _player = PlayerMovement.Instance;
         _player.TreeExited += OnPlayerExitTree;

@@ -1,9 +1,26 @@
-[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3 uid="uid://db0c1cgn7b3ub"]
+[gd_resource type="Resource" script_class="EnemyData" load_steps=5 format=3 uid="uid://db0c1cgn7b3ub"]
 
-[ext_resource type="Script" uid="uid://dpk2i3u3pwdn" path="res://Enemies/scripts/EnemyData.cs" id="1_52671"]
+[ext_resource type="Texture2D" uid="uid://cvijoxsv3r6of" path="res://globalAssets/tankyEnemy.png" id="1_uo57p"]
+[ext_resource type="Script" uid="uid://dpk2i3u3pwdn" path="res://Enemies/data/EnemyData.cs" id="2_8imys"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_otaq4"]
+atlas = ExtResource("1_uo57p")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_66qcr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_otaq4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [resource]
-script = ExtResource("1_52671")
+script = ExtResource("2_8imys")
+SpriteFrames = SubResource("SpriteFrames_66qcr")
 EnemyHealth = 20
 EnemySpeed = 20.0
 metadata/_custom_type_script = "uid://dpk2i3u3pwdn"
